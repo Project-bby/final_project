@@ -1,24 +1,37 @@
 
 
-    <title>Registration page</title>
-</head>
 <body>
     <h1>New Regsiter Page</h1>
-<form action="/New_Register" method="POST">
-<!--email input:                                                                -->    
-<label for="email">Email</label>
-<input type="email" id="email" name="email" required><br>
 
-<!--password input:                                                     --> 
-<label for="password">Password</label>
-<input type="password" id="password" name="password" required><br>
-<!--submit button:                                                        --> 
-    <button type="submit">Rgister</button>
+<form action="/New_Register" method="POST">
+                     
+    
+<div>
+    <label for="username">Set a username:</label>
+    <input type="text" id="username" name="username" ><br>
+</div>
+
+<div>                                             
+    <label for="password">Set a password: </label>
+    <input type="password" id="password" name="password" ><br>
+</div>
+
+
+<div>
+    <label for="email">Choose a mail:</label>
+    <input type="email" id="email" name="email" ><br>
+</div>
+
+                                             
+ <button type="submit">Rgister</button>
 </form>
 </body>
 
 
-
+ Password Policy:<br>
+1.Password length: 10 .<br>
+2.Password composition: uppercase letters, lowercase letters, digits, special characters.<br>
+3.cant choose previous password .
 <!--
 1.	מסך Register של משתמשים חדשים 
 a.	הגדרת יוזרים חדשים 
