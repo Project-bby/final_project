@@ -146,7 +146,7 @@ const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
         user: 'supoortt10@gmail.com',  // כתובת המייל שלך
-        pass: 'PSYA@9834'              // סיסמת המייל שלך
+        pass: '123'              // סיסמת המייל שלך
     }
 });
 
