@@ -15,8 +15,8 @@ const port = 3000
 
 const pool = mysql.createPool({
     host: 'localhost',
-    user: 'root',
-    password: '123123',
+    user: '',
+    password: '',
     database: 'communication_ltd',
     port: 3306
 
@@ -145,8 +145,8 @@ app.post("/New_Register", async (request, response) => {
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'supoortt10@gmail.com',  // כתובת המייל שלך
-        pass: '123'              // סיסמת המייל שלך
+        user: '',  // כתובת המייל שלך
+        pass: ''              // סיסמת המייל שלך
     }
 });
 
